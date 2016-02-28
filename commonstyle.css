@@ -73,7 +73,7 @@ text-transform: uppercase;
 	padding-left: 13px;
 }
 	
-#current{
+	#current{
 	border-bottom: solid #0ca780 3px;
 	transition: 0.5s;
 	}
