@@ -50,11 +50,13 @@ text-transform: uppercase;
 .title{
 	font-size: 220%;
 	text-transform: uppercase;
+	transition: 0.5s;
 	}
 
 .paragraph
 {
 text-align: left;
+transition: 0.5s;
 }
 
 .menu{
@@ -63,7 +65,7 @@ text-transform: uppercase;
 transition: 0.5s;
 }
 
-.menu:hover:{
+.menuText:hover{
 	letter-spacing: 5px;
 	transition: 0.5s;
 }
@@ -77,6 +79,7 @@ transition: 0.5s;
 	padding-bottom: 10px;
 	padding-right: 13px;
 	padding-left: 13px;
+	transition: 0.5s;
 }
 	
 	#current{
