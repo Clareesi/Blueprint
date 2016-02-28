@@ -60,6 +60,12 @@ text-align: left;
 .menu{
 text-align:left;
 text-transform: uppercase;
+transition: 0.5s;
+}
+
+.menu:hover:{
+	letter-spacing: 5px;
+	transition: 0.5s;
 }
 	
 .menuText{
