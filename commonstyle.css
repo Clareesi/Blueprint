@@ -75,5 +75,11 @@ text-transform: uppercase;
 	
 #current{
 	border-bottom: solid #0ca780 3px;
-}
+	transition: 0.5s;
+	}
+
+	#current:hover{
+	letter-spacing: 5px;
+	transition: 0.5s;
+	}
 
