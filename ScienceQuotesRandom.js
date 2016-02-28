@@ -38,12 +38,12 @@ var quotes = [
     {
         "quote"    :    "You miss 100% of the shots you don't take.",
         "author"    :    " - Wayne Gretzky"
-    }
+    },
 
     {
         "quote"    :    "Pursue your passions, even when you feel absolutely worthless.",
         "author"    :    " - Bret Autrey"
-    },
+    }
 ];
 
 
