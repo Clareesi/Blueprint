@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="commonstyle.css">
+	<style>
+		#main_circle {
+			height:225px;
+			width: 225px;
+			line-height: 225px;
+			z-index: 10;
+		}
+
+		.circle2 {
+			display: none;
+			transition: 2s;
+		}
+
+/*		.line_wrapper {
+			height: 2px;
+/*			transform: rotate(20deg);*/
+	/*	}
+
+		@keyframes growLine {
+			from {width: 0%}
+			to {width: 100%}
+		}
+
+		.line {
+			width: 1%;
+			height: 2px;
+			background-color: #075f49;
+/*			animation-name: growLine;
+			animation-duration: 4s;
+		}*/
+
+/*		+ #circle2{
+
+			display: all;
+		}
+*/
+	</style>
+
+	<!-- div{
+		width: 250px;
+		height: 100px;
+	}
+
+	.circle {
+		width: 200px;
+		height: 200px;
+		line-height: 200px;
+		border-radius: 50%;
+		background: lightblue;
+		color: white;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0 auto;
+	}
+
+	span {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	body {
+		text-align: center;
+		padding: 0;
+		margin: 0 auto;
+	} -->
+
+	<title>Home</title>
+</head>
+
+
+<body>
+	<div class="circle" id="main_circle">
+	<span>Choose a circle</span>
+	</div>
+
+	<a href=about.html>
+	<div class="circle2" id="about">
+	<span>About</span>		
+	</div>
+	</a>
+
+	<div class="circle2" id="random">
+	<span>Random</span>		
+	</div>
+
+	<div class="circle2" id="archive">
+	<span>Archive</span>		
+	</div>
+
+<!-- 	<div class="line_wrapper">
+	<div class="line"></div>
+	</div> -->
+
+	<script src="http://code.jquery.com/jquery-2.2.1.js"></script>
+	<script src="Home.js"></script>
+</body>
+</html>
