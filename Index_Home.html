@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="text/css">
-/*	<link rel="stylesheet" type="text/css" href="commonstyle.css">*/
 
-/*	div{
+	<link rel="stylesheet" type="text/css" href="commonstyle.css">
+	<style>
+		#main_circle {
+			display: all;
+			height: 225px;
+			width: 225px;
+			line-height: 225px;
+		}
+
+		.circle2 {
+			height: 150px;
+			width: 150px;
+			line-height: 150px;
+			padding-top: 100px;
+		}
+
+	</style>
+
+	<!-- div{
 		width: 250px;
 		height: 100px;
-	}*/
+	}
 
 	.circle {
 		width: 200px;
@@ -30,17 +46,19 @@
 		text-align: center;
 		padding: 0;
 		margin: 0 auto;
-	}
-
-	</style>
+	} -->
 
 	<title>Home</title>
 </head>
 
 
 <body>
-	<div class="circle">
-	<span>Choose a circle to get started</span>
+	<div class="circle" id="main_circle">
+	<span>Choose a circle</span>
+	</div>
+
+	<div id="circle2">
+	<span>About</span>		
 	</div>
 
 	<script src="http://code.jquery.com/jquery-2.2.1.js"></script>
