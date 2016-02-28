@@ -6,15 +6,22 @@ $(window).resize(function(){
 		top: ($(window).height() - $('.circle').outerHeight())/2,
 	});
 
+<<<<<<< Updated upstream
 	$('.circle2').css({
 		position:"absolute",
 		left: ($(window).width() - $('.circle').outerWidth())/2,
 		top: ($(window).height() - $('.circle').outerHeight())/2,
 	});
+=======
+	console.log($(window).height())
+	console.log($('.circle').outerHeight()/2)
+	console.log($(window).height() - $('.circle').outerHeight()/2)
+>>>>>>> Stashed changes
 
 });
 
 $(window).resize()
+<<<<<<< Updated upstream
 
 // var line_angle = function(a, b){
 // 	var dy = a.position().top - b.position().top;
@@ -46,3 +53,5 @@ $(document).ready(function(){
 });
 
 $(document).ready()
+=======
+>>>>>>> Stashed changes
