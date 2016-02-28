@@ -12,6 +12,12 @@ $(window).resize(function(){
 		top: ($(window).height() - $('.circle').outerHeight())/2,
 	});
 
+	$('.circle3').css({
+		position:"absolute",
+		left: '300px',
+		top: '175px',
+	});
+
 });
 
 $(window).resize()
@@ -30,6 +36,17 @@ $(document).ready(function(){
         $("#about").fadeIn();
         $("#about").css({
         	transform: 'translateY(-200px) translateX(200px)',
+        })
+    });
+
+    circle2.hover(function(){
+        $("#puns").fadeIn();
+        $("#puns").css({
+        	transform: 'translateY(-100px) translateX(-150px)',
+        })
+        $("#memes").fadeIn();
+        $("#memes").css({
+        	transform: 'translateY(100px) translateX(-150px)',
         })
     });
 });

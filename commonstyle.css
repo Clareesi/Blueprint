@@ -46,10 +46,12 @@ border-radius: 100%;
 border:4px solid #0ca780;
 text-transform: uppercase;
 }
+
 .title{
 	font-size: 220%;
 	text-transform: uppercase;
 	}
+
 .paragraph
 {
 text-align: left;
@@ -60,7 +62,7 @@ text-align:left;
 text-transform: uppercase;
 }
 	
-	.menuText{
+.menuText{
 	display: inline;
 	text-decoration:none;
 	color: white;
@@ -69,10 +71,9 @@ text-transform: uppercase;
 	padding-bottom: 10px;
 	padding-right: 13px;
 	padding-left: 13px;
+}
 	
-	}
-	
-	#current{
+#current{
 	border-bottom: solid #0ca780 3px;
-	}
+}
 
