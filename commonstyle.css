@@ -1,9 +1,11 @@
 body{
 background-color: #0b0f0f;
-font-family: 'Roboto Thin', sans-serif;
+font-family: 'Roboto', sans-serif;
 color: white;
-letter-spacing: 2px;
 text-align: center;
+line-height: 150%;
+padding-right: 50px;
+padding-left: 50px;
 }
 
 span{
