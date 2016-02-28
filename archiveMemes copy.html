@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<head>
+	<!--Adding roboto-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
+	<!--Adding CSS-->
+	<link rel="stylesheet" type="text/css" href="commonstyle.css">
+<style>
+	
+	.quote{
+	font-size: 220%;
+	}
+	
+	.source{
+	text-align:left;
+	line-height: 0%;
+	font-size: 150%;
+	}
+	
+	#meme1 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+
+#meme2 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#meme3 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#meme4 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#meme5 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#meme6 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#meme7 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#meme8 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#meme9 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#meme10 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#meme11 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#meme12 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+
+#leaf0 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#leaf1 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#leaf2 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+#leaf3 {
+width: 200px;
+height: 190px;
+border-radius: 100%;
+border: 6px double #0ca780;
+}
+
+
+ul.enlarge{
+list-style-type:none; /*remove the bullet point*/
+margin-left:100;
+}
+ul.enlarge li{
+display:inline-block; /*places the images in a line*/
+position: relative;
+z-index: 0; /*resets the stack order of the list items - later we'll increase this*/
+margin:10px 40px 0 20px;
+
+
+
+}
+ul.enlarge img{
+background-color:#0ca780;
+padding: 6px;
+-webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+-moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+-webkit-border-radius: 4px; 
+-moz-border-radius: 4px; 
+border-radius: 4px; 
+
+}
+ul.enlarge span{
+position:absolute;
+left: -9999px;
+background-color:#0ca780;
+padding: 10px;
+font-family: 'Droid Sans', sans-serif;
+font-size:.9em;
+text-align: center; 
+color: #495a62; 
+ -webkit-box-shadow: 0 0 20px rgba(0,0,0, .75));
+-moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+box-shadow: 0 0 20px rgba(0,0,0, .75);
+-webkit-border-radius: 8px; 
+-moz-border-radius: 8px; 
+border-radius:8px; 
+}
+ul.enlarge li:hover{
+z-index: 50;
+cursor:pointer;
+}
+ul.enlarge span img{
+padding:2px;
+background:#ccc;
+}
+ul.enlarge li:hover span{ 
+	transition: .5s
+top: -100px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left: -20px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+ul.enlarge li:hover:nth-child(2) span{
+left: -100px; 
+}
+ul.enlarge li:hover:nth-child(3) span{
+left: -200px; 
+}
+/**IE Hacks - see http://css3pie.com/ for more info on how to use CS3Pie and to download the latest version**/
+ul.enlarge img, ul.enlarge span{
+behavior: url(pie/PIE.htc); 
+}
+
+
+	
+</style>
+
+</head>
+
+<body>
+	<div class="menu">
+		<b><a href="index.html" class="menuText" style="color: #0ca780;">Home</a></b>
+	<a href="archiveInspirational.html" class="menuText" >Inspirational</a>
+	<a href="archivePuns.html" class="menuText">Puns</a>
+	<a href="archiveJokes.html" class="menuText">Jokes</a>
+	<a href="archiveMemes.html" class="menuText" id="current">Memes</a>
+	</div>
+	</br>
+
+	<!--THE IMAGES ARE PLACED IN AN UNORDERED LIST-->
+<ul class="enlarge"> <!--We give the list a class so that we can style it seperately from other unordered lists-->
+<!--First Image-->
+<li>
+<img src="http://badassmemes.com/wp-content/uploads/2013/11/crush-my-enemies.jpg" width="200px" height="180px"
+
+
+
+ /> <!--thumbnail image-->
+<span> <!--span contains the popup image-->
+<img src="http://badassmemes.com/wp-content/uploads/2013/11/crush-my-enemies.jpg" /> <!--popup image-->
+
+</span>
+</li>
+<!--Second Image-->
+<li>
+<img src="https://s-media-cache-ak0.pinimg.com/564x/52/70/9b/52709b0346a2b23ad23c4ac39767fa0b.jpg" width="200px" height="180px"  /> <!--thumbnail image-->
+<span> <!--span contains the popup image-->
+<img src="https://s-media-cache-ak0.pinimg.com/564x/52/70/9b/52709b0346a2b23ad23c4ac39767fa0b.jpg" /> <!--popup image-->
+ <!--caption appears under the popup image-->
+</span>
+</li>
+<!--Third Image-->
+<li>
+<img src="http://i1.kym-cdn.com/photos/images/newsfeed/000/581/567/bab.jpg" width="200px" height="180px" /> <!--thumbnail image-->
+<span> <!--span contains the popup image-->
+<img src="http://i1.kym-cdn.com/photos/images/newsfeed/000/581/567/bab.jpg"  <!--caption appears under the popup image-->
+</span>
+</li>
+
+<br>
+
+<li>
+<img src="http://memesvault.com/wp-content/uploads/Asian-Dad-Meme-Face-10.jpg" width="200px" height="180px"  /> <!--thumbnail image-->
+<span> <!--span contains the popup image-->
+<img src="http://memesvault.com/wp-content/uploads/Asian-Dad-Meme-Face-10.jpg" /> <!--popup image-->
+
+</span>
+</li>
+<!--Second Image-->
+<li>
+<img src="http://www.quickmeme.com/img/fb/fb50e55931ea408914e3d4e952ee078740cabbdeb34cf119ee3667579d2bd6a8.jpg" width="200px" height="180px" /> <!--thumbnail image-->
+<span> <!--span contains the popup image-->
+<img src="http://www.quickmeme.com/img/fb/fb50e55931ea408914e3d4e952ee078740cabbdeb34cf119ee3667579d2bd6a8.jpg"  <!--caption appears under the popup image-->
+</span>
+</li>
+<!--Third Image-->
+<li>
+<img src="http://img.memecdn.com/me-talking-to-animals-anime-himouto-umaru-chan_fb_5608725.jpg" width="200px" height="180px"  /> <!--thumbnail image-->
+<span> <!--span contains the popup image-->
+<img src="http://img.memecdn.com/me-talking-to-animals-anime-himouto-umaru-chan_fb_5608725.jpg"  <!--caption appears under the popup image-->
+</span>
+</li>
+<br>
+<li>
+<img src="http://cdnimg.in/wp-content/uploads/2015/08/trump-vs-corn-who-wore-it-better-meme.jpg?cfaea8" width="200px" height="180px"  /> <!--thumbnail image-->
+<span> <!--span contains the popup image-->
+<img src="http://cdnimg.in/wp-content/uploads/2015/08/trump-vs-corn-who-wore-it-better-meme.jpg?cfaea8" /> <!--popup image-->
+
+</span>
+</li>
+<!--Second Image-->
+<li>
+<img src="https://s-media-cache-ak0.pinimg.com/736x/ff/89/1c/ff891c36d10cededa0411a9100f3befe.jpg" width="200px" height="180px" /> <!--thumbnail image-->
+<span> <!--span contains the popup image-->
+<img src="https://s-media-cache-ak0.pinimg.com/736x/ff/89/1c/ff891c36d10cededa0411a9100f3befe.jpg"  <!--caption appears under the popup image-->
+</span>
+</li>
+<!--Third Image-->
+<li>
+<img src="http://img.memecdn.com/coding_o_147403.jpg" width="200px" height="180px"  /> <!--thumbnail image-->
+<span> <!--span contains the popup image-->
+<img src="http://img.memecdn.com/coding_o_147403.jpg"  <!--caption appears under the popup image-->
+</span>
+</li>
+<br>
+<li>
+<img src="http://cdn.meme.am/instances/500x/48812887.jpg" width="200px" height="180px"  /> <!--thumbnail image-->
+<span> <!--span contains the popup image-->
+<img src="http://cdn.meme.am/instances/500x/48812887.jpg" /> <!--popup image-->
+
+</span>
+</li>
+<!--Second Image-->
+<li>
+<img src="https://imgflip.com/s/meme/Troll-Face.jpg" width="200px" height="180px" /> <!--thumbnail image-->
+<span> <!--span contains the popup image-->
+<img src="https://imgflip.com/s/meme/Troll-Face.jpg"  <!--caption appears under the popup image-->
+</span>
+</li>
+<!--Third Image-->
+<li>
+<img src="https://s-media-cache-ak0.pinimg.com/236x/b9/2b/1b/b92b1b05c5396f3983045b529d1453a0.jpg" width="200px" height="180px"  /> <!--thumbnail image-->
+<span> <!--span contains the popup image-->
+<img src="https://s-media-cache-ak0.pinimg.com/236x/b9/2b/1b/b92b1b05c5396f3983045b529d1453a0.jpg"  <!--caption appears under the popup image-->
+</span>
+</li>
+<br>
+</ul>
+		
+	
+	
+
+	<!-- <img id="leaf0" src="https://c2.staticflickr.com/2/1438/922705627_172c6185ef_b.jpg">
+<div id="movers-row">
+	<div><img id="leaf1" src="https://images.blogthings.com/theautumnleaftest/leaf-1.jpg"></div>
+	<div><img id="leaf2" src="https://images.blogthings.com/theautumnleaftest/leaf-1.jpg"></div>
+	<div><img id="leaf3" src="https://images.blogthings.com/theautumnleaftest/leaf-1.jpg"></div>
+
+</div>
+
+
+	#movers-row {
+	margin: -120px 0 0 120px;
+}
+#movers-row div {
+	width: 33.3%;
+	float: left;
+}
+#movers-row div img {
+	float: right;
+}
+-->
+
+
+</body>
+
+</html>
